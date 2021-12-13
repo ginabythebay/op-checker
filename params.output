@@ -1,0 +1,180 @@
+/Users/gina/Library/Application Support/Autodesk/Autodesk Fusion 360/API/AddIns/params
+advancedMode : false
+betaMode : false
+alphaMode : false
+isXpress : false
+licenseMultiaxis : true
+license3D : true
+metric : false
+isAssemblyDocument : true
+strategy : 'setup'
+operation_description : ''
+surfaceZHigh : -4.35
+surfaceZLow : -8.35
+surfaceXLow : -348.625
+surfaceXHigh : 348.62500000000006
+surfaceYLow : -195.375
+surfaceYHigh : 195.37500000000003
+stockZHigh : 0.0
+stockZLow : -12.7
+stockXLow : -381.
+stockXHigh : 381.
+stockYLow : -203.19999999999999
+stockYHigh : 203.19999999999999
+modelDiameter : NaN
+modelDiameterInner : NaN
+modelLength : 4.
+stockDiameter : NaN
+stockDiameterInner : NaN
+stockLength : NaN
+tab_setup : false
+job_machine : true
+machine_select : false
+additive_configuration_select : 'None'
+job_groupSetup : true
+job_type : 'milling'
+job_enableWCSForAdditive : false
+job_spindle : 'primary'
+machineMaxTilt : 90
+machineMaxTiltValidation : 180
+job_groupWCS : true
+wcs_orientation_mode : 'axesZX'
+job_rotaryAxis : false
+wcs_orientation_axisZ : true
+wcs_orientation_flipZ : false
+wcs_orientation_cSys : false
+job_axisXPosition : false
+wcs_orientation_axisX : true
+wcs_orientation_flipX : false
+wcs_orientation_axisY : false
+wcs_orientation_flipY : false
+wcs_origin_turning : 'stock front'
+wcs_origin_mode : (job_type == 'additive') ? ('modelOrigin') : 'stockPoint'
+wcs_origin_point : false
+wcs_model_point : true
+wcs_origin_boxPoint : 'top center'
+wcs_stock_point : true
+job_homePosition : jobSafeZ_value
+job_safeZ_group : true
+jobSafeZ_mode : 'stock front'
+jobSafeZ_offset : stockZHigh + 5mm
+jobSafeZ_value : 5.
+jobSafeZ_absolute : true
+job_groupPacking : true
+job_packing : true
+job_groupMachine : true
+job_machine_manufacturer : 'renishaw'
+job_machine_type : 'renishaw250'
+job_machine_configuration : 'titanium1'
+job_machine_configuration_id : ''
+job_machine_build_strategy_id : ''
+job_groupWorkflow : true
+job_slmOptimized : false
+job_useModel : true
+job_workingModel : 'default'
+job_workingModel_select : 'default'
+job_model : true
+job_useSpunProfile : false
+job_spunProfileTolerance : 0.0004in
+job_spunProfileSmoothing : true
+job_spunProfileConvertToSketch : false
+job_useChuck : true
+chuckFront_mode : 'model back'
+chuckFront_offset : -0.4in
+chuckFront_value : -18.51
+chuckFront_absolute : true
+job_chuckStockModel : false
+job_useFixture : false
+job_fixture : false
+job_fixtureAttachment : false
+job_groupNoBuildZone : true
+job_NoBuildZone : false
+tab_stock : false
+job_enableStockSimForAdditive : false
+job_groupStock : true
+sandvik_set_material : false
+job_stockMode : 'fixedbox'
+job_groundStockModelOrigin : false
+job_stockOffsetMode : 'simple'
+job_isSameComponent : true
+job_continueMachining : false
+job_stockSolid : false
+job_stockOffsetSides : 0.04in
+job_stockOffsetTop : 0.04in
+job_stockOffsetBottom : 0in
+job_stockOffsetXBack : 0in
+job_stockOffsetXFront : 0in
+job_stockOffsetYBack : 0in
+job_stockOffsetYFront : 0in
+job_stockOffsetZBack : 0in
+job_stockOffsetZFront : 0in
+job_stockFixedX : 30in
+job_stockFixedXMode : job_groundStockModelOrigin ? 'model' : 'center'
+job_stockFixedXOffset : (job_stockFixedX - (surfaceXHigh - surfaceXLow)) / 2
+job_stockFixedY : 16in
+job_stockFixedYMode : job_groundStockModelOrigin ? 'model' : 'center'
+job_stockFixedYOffset : (job_stockFixedY - (surfaceYHigh - surfaceYLow)) / 2
+job_stockFixedZ : .5in
+job_stockFixedZMode : job_groundStockModelOrigin ? 'model' : 'center'
+job_stockFixedZOffset : (job_stockFixedZ - (surfaceZHigh - surfaceZLow)) / 2
+job_stockOffset : 0in
+job_stockHeight : 0.4in
+job_stockAxis : false
+job_stockDiameter : Math.ceilto(modelDiameter; job_stockFixedRoundingValue)
+job_stockDiameterInner : Math.floorto(modelDiameterInner; job_stockFixedRoundingValue)
+job_stockLength : Math.ceilto(modelLength; job_stockFixedRoundingValue)
+job_stockLengthMode : 'center'
+job_stockLengthOffset : 0
+job_stockRadialOffset : 0.04in
+job_stockOffsetFront : 0in
+job_stockOffsetBack : 0in
+job_stockFixedRoundingValue : ((job_stockMode == 'default') || (job_stockMode == 'relativecylinder') || (job_stockMode == 'relativetube')) ? 0.0mm : 0.5in
+job_groupCuttingForce : true
+job_stockSpecificCuttingForce : 1500.0
+job_stockSpecificCuttingForceUnit : 'N/mm2'
+job_stockInitialToolWear : 0.0
+job_stockInitialToolWearUnit : 'J'
+job_stockCuttingForceOutputFolder : ''
+job_groupStockInfo : true
+job_stockInfoDiameter : stockDiameter
+job_stockInfoLength : stockLength
+job_stockInfoDimensionX : stockXHigh - stockXLow
+job_stockInfoDimensionY : stockYHigh - stockYLow
+job_stockInfoDimensionZ : stockZHigh - stockZLow
+job_groupModelInfo : true
+job_modelInfoDiameter : modelDiameter
+job_modelInfoLength : modelLength
+job_modelInfoDimensionX : surfaceXHigh - surfaceXLow
+job_modelInfoDimensionY : surfaceYHigh - surfaceYLow
+job_modelInfoDimensionZ : surfaceZHigh - surfaceZLow
+tab_position : false
+job_position : true
+job_positionReference_origin_mode : 'fixturePoint'
+job_positionReference_origin_point : false
+job_positionReference_model_point : true
+job_positionReference_origin_boxPoint : 'bottom center'
+job_positionReference_fixture_point : true
+job_positionReference_stock_point : true
+job_positionAttach : false
+job_positionXOffset : 0in
+job_positionYOffset : 0in
+job_positionZOffset : 0in
+tab_post : false
+job_groupPostVars : true
+job_programName : '51400'
+job_programComment : '21140 WS Lid Plate face'
+job_groupMachineWCS : true
+job_workOffset : 1
+job_workOffset_UI : 1
+job_wcsFormat : false
+job_wcsCode : 0
+job_wcsDisplay : true
+job_wcsMinCode : 0
+job_wcsMaxCode : 9999
+job_probeWorkOffset : job_workOffset
+job_multipleWorkOffsets : false
+job_numberOfWorkDuplicates : 1
+job_workOffsetIncrement : 1
+job_workOrder : 'default'
+platformVisibilityState : true
+associatedView : false
