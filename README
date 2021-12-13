@@ -1,0 +1,11 @@
+Drop this into your Fusion 360 API directory.  On a Mac, this is in
+
+~/Library/ApplicationSupport/Autodesk/Autodesk Fusion 360/API/AddIns:
+
+Then, in design mode, go to TOOLS|ADD-INS|Scripts and Add-ins...
+
+In the dialog that comes up, go to the Add-Ins tab, click the green plus and click on op-checker.
+
+Load up a project that has some operations you want to look at, and run the op checker (you can do this from design mode).  The output will appear in the text command window (which you can turn on in the View menu).
+
+If you want to run it again, you need to stop it and then start it.
